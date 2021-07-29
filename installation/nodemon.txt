@@ -1,0 +1,13 @@
+npm i -D nodemon
+
+"scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+
+npm run dev
+
+***Multiple Nodemon***
+you could get the npm package concurrently
+https://www.npmjs.com/package/concurrently
+concurrently \"nodemon ./app.js\" \"nodemon ./index.js\" in package.json

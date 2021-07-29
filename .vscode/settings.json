@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    ".vscode": true,
+    "Authentication_Node_Sessions_Cookies-master": true,
+    "installation": true,
+    "public\\css": true,
+    "node_modules": true,
+    "node_modules\\connect-flash\\lib": true
+  }
+}
